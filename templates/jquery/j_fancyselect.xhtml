@@ -1,0 +1,17 @@
+<?php
+
+// Add the style sheet
+$GLOBALS['TL_CSS'][] = 'system/modules/cp_fancyselect/assets/jquery.FancySelect.css||static';
+
+?>
+
+<script type="text/javascript" src="system/modules/cp_fancyselect/assets/jquery.FancySelect.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+	(function($) {
+		$( document ).ready(function() {
+			$('select').fancySelect();
+		});
+	})(jQuery);
+/* ]]> */
+</script>

@@ -1,0 +1,20 @@
+<?php
+
+		// Add the style sheet
+		$GLOBALS['TL_CSS'][] = 'system/modules/cp_fancyselect/assets/moo.FancySelect.css||static';
+
+?>
+
+<script type="text/javascript" src="system/modules/cp_fancyselect/assets/moo.FancySelect.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+(function($) {
+	window.addEvent('domready', function() {
+		$$('select').fancySelect({
+			showImages: false
+
+		});
+	});
+})(document.id);
+/* ]]> */
+</script>
